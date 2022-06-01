@@ -181,8 +181,17 @@ button:hover {
 .list-item:not(:last-child) {
   margin-right: 8px;
 }
+.list-item:hover,
+.list-item:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 /* Projects section */
+
+.project:hover{
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .project-list {
   display: flex;
   flex-wrap: wrap;
@@ -247,6 +256,42 @@ button:hover {
   cursor: pointer;
 }
 
+/* .hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-content {
+  background-color: #303030;
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url(../img/hero-bg.jpeg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 272px 96px 206px 96px;
+  flex-grow: 1;
+}
+
+.hero-top-text {
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+  margin-bottom: var(--typical-margin);
+}
+.hero-bottom-text {
+  color: #9da4bd;
+  max-width: 400px;
+} */
 /* Features */
 .features {
   padding-top: 94px;
@@ -303,6 +348,7 @@ button:hover {
   flex-basis: calc(100% / 4 - 30px);
   margin: 15px;
   text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team {
   background-color: #f5f4fa;
@@ -324,3 +370,54 @@ button:hover {
 .link:focus {
   color: var(--accent-color);
 }
+
+/* .masters-item-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}
+
+.masters-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.masters-soc-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.masters-soc-item:last-child {
+  margin-right: 0;
+}
+
+.masters-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+}
+
+.masters-soc-link:hover,
+.masters-soc-link:focus {
+  background-color: teal;
+  fill: chocolate;
+}
+
+/* .masters-soc-link:hover,
+.masters-soc-link:focus {
+  background-color: teal;
+}
+.masters-soc-link:hover .masters-soc-icon,
+.masters-soc-link:focus .masters-soc-icon {
+  fill: chocolate;
+} */
+ */
