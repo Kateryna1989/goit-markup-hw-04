@@ -222,8 +222,19 @@ button:hover {
 /* hero */
 .hero {
   background-color: #2f303a;
+   background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)
+    ),
+url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+  max-width: 1600px;
+  height: 600px;
   padding: 200px 0;
   text-align: center;
+  
 }
 .hero-title {
   width: 696px;
