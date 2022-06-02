@@ -229,12 +229,12 @@ button:hover {
 url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover
+  background-size: cover;
   max-width: 1600px;
   height: 600px;
   padding: 200px 0;
   text-align: center;
-  
+  margin: 0 auto;
 }
 .hero-title {
   width: 696px;
@@ -337,6 +337,58 @@ url(../images/hero-img.jpg);
   text-align: center;
 }
 
+.feature-item-icon-1::before{
+  content: "";
+  margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-image: url(../images/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.feature-item-icon-2::before{
+  content: "";
+  margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-image: url(../images/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.feature-item-icon-3::before{
+  content: "";
+  margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-image: url(../images/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.feature-item-icon-4::before{
+  content: "";
+  margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-image: url(../images/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
 /* Photos */
 .cards-list,
 .team-member-list {
@@ -349,7 +401,7 @@ url(../images/hero-img.jpg);
   margin: 15px;
 }
 
-/* our team */
+/* Our team */
 .team-member-list {
   display: flex;
   flex-wrap: wrap;
