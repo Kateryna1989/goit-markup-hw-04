@@ -418,6 +418,33 @@ button:hover {
 }
 
 /* Our clients */
-.section.clients {
+/* .section.clients {
   padding: 0;
+} */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: transparent;
+}
+.clients-icon {
+  fill: currentColor;
 }
