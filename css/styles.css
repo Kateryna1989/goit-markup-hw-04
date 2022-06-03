@@ -174,6 +174,28 @@ button:hover {
 .ft-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-social {
+  align-items: baseline;
+  margin-left: 70px;
+}
+
+.footer-social .soc-link {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.footer .container {
+  display: flex;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 /* ------------Portfolio.html------------ */
 
 .filter-list .button.current {
@@ -281,7 +303,7 @@ button:hover {
   padding-top: 94px;
 }
 .features-list {
-  padding-bottom: none;
+  padding-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
@@ -418,10 +440,6 @@ button:hover {
 }
 
 /* Our clients */
-/* .section.clients {
-  padding: 0;
-} */
-
 .clients-list {
   display: flex;
   justify-content: center;
@@ -436,14 +454,16 @@ button:hover {
   border-radius: 4px;
   color: #afb1b8;
 }
+
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-logo:hover,
+.clients-logo:focus {
   cursor: pointer;
   color: var(--accent-color);
   background-color: transparent;
+  border-color: var(--accent-color);
 }
 .clients-icon {
   fill: currentColor;
