@@ -374,6 +374,7 @@ button:hover {
 .team-member-position {
   line-height: 1.19;
   color: var(--secondary-text-color);
+  margin-bottom: 16px;
 }
 .member-info {
   padding: 30px;
@@ -384,6 +385,36 @@ button:hover {
 }
 .link:focus {
   color: var(--accent-color);
+}
+.soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+.soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.soc-item {
+  height: 44px;
+  width: 44px;
+}
+.soc-item:not(:last-child) {
+  margin-right: 10px;
+}
+.soc-link:hover,
+.soc-link:focus {
+  cursor: pointer;
+  color: var(--accent-white-color);
+  background-color: var(--accent-background-color);
+}
+.icon {
+  fill: currentColor;
 }
 
 /* Our clients */
